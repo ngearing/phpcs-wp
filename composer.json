@@ -1,0 +1,20 @@
+{
+    "name": "ngearing/phpcs-wp",
+    "description": "php code styling and ruleset for WordPress",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathan Gearing",
+            "email": "natgearing@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "phpcompatibility/phpcompatibility-wp": "dev-master",
+        "wp-coding-standards/wpcs": "dev-master"
+    }
+}
