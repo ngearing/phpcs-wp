@@ -7,7 +7,7 @@ Composer
 ## Install
 
 ```bash
-composer update
+composer require ngearing/phpcs-wp:dev-master
 ```
 
 ## How to use
@@ -22,4 +22,10 @@ Or to fix errors
 
 ```bash
 vendor/bin/phpcbf .
+```
+
+To check PHP compatibilty
+
+```bash
+vendor/bin/phpcs --runtime-set testVersion 7.0-
 ```

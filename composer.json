@@ -3,6 +3,7 @@
   "description": "php code styling and ruleset for WordPress",
   "type": "project",
   "license": "MIT",
+  "homepage": "https://github.com/ngearing/phpcs-wp",
   "authors": [
     {
       "name": "Nathan Gearing",
